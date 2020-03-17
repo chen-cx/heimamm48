@@ -1,6 +1,7 @@
 <template>
-  <div>
-    <router-link to="/">我生死router</router-link>
+  <div class="app">
+    <!-- 添加视图容器 -->
+    <router-view></router-view>
   </div>
 </template>
 
